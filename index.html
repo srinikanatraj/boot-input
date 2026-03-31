@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Form Inputs Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-4">
+
+  <h2 class="text-center mb-4">🧾 Bootstrap Form Inputs Project</h2>
+
+  <!-- 1. Basic Inputs -->
+  <h4>1. Basic Inputs</h4>
+  <form class="mb-4">
+
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Enter name">
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Number</label>
+      <input type="number" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Date</label>
+      <input type="date" class="form-control">
+    </div>
+
+  </form>
+
+  <!-- 2. Textarea -->
+  <h4>2. Textarea</h4>
+  <div class="form-group mb-4">
+    <label>Comments</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+
+  <!-- 3. Select -->
+  <h4>3. Select List</h4>
+  <div class="form-group mb-4">
+    <label>Select Option</label>
+    <select class="form-control">
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+    </select>
+  </div>
+
+  <!-- 4. Checkboxes -->
+  <h4>4. Checkboxes</h4>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">Option 1
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">Option 2
+    </label>
+  </div>
+  <div class="form-check mb-4">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input" disabled>Disabled
+    </label>
+  </div>
+
+  <!-- 5. Inline Checkboxes -->
+  <h4>5. Inline Checkboxes</h4>
+  <div class="form-check-inline">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">A
+    </label>
+  </div>
+  <div class="form-check-inline">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">B
+    </label>
+  </div>
+
+  <!-- 6. Radio Buttons -->
+  <h4 class="mt-4">6. Radio Buttons</h4>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="r">Option 1
+    </label>
+  </div>
+  <div class="form-check mb-4">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="r">Option 2
+    </label>
+  </div>
+
+  <!-- 7. Inline Radio -->
+  <h4>7. Inline Radio</h4>
+  <div class="form-check-inline">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="r2">Yes
+    </label>
+  </div>
+  <div class="form-check-inline mb-4">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="r2">No
+    </label>
+  </div>
+
+  <!-- 8. Input Sizes -->
+  <h4>8. Input Sizes</h4>
+  <input type="text" class="form-control form-control-sm mb-2" placeholder="Small">
+  <input type="text" class="form-control mb-2" placeholder="Default">
+  <input type="text" class="form-control form-control-lg mb-4" placeholder="Large">
+
+  <!-- 9. Plain Text -->
+  <h4>9. Plain Text Input</h4>
+  <input type="text" class="form-control-plaintext mb-4" value="Readonly text">
+
+  <!-- 10. File & Range -->
+  <h4>10. File & Range</h4>
+  <div class="form-group">
+    <label>File Upload</label>
+    <input type="file" class="form-control-file border">
+  </div>
+
+  <div class="form-group">
+    <label>Range Slider</label>
+    <input type="range" class="form-control-range">
+  </div>
+
+</div>
+
+</body>
+</html>
